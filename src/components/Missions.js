@@ -10,7 +10,13 @@ class Missions extends Component {
         <Title headline="Missões" />
         <section className="mission-container">
           { missions.map(({ name, year, country, destination }) => (
-            <MissionCard key={ name } name={ name } year={ year } country={ country } destination={ destination } />
+            <MissionCard
+              key={ name }
+              name={ name }
+              year={ year }
+              country={ country }
+              destination={ destination }
+            />
           )) }
         </section>
       </div>
