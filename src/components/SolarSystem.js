@@ -6,11 +6,13 @@ import Planets from '../data/planets';
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system" className="container">
+      <article data-testid="solar-system" className="planets-container">
         <Title headline="Planetas" />
-        { Planets.map(({ name, image }) => (
-          <PlanetCard key={ name } planetName={ name } planetImage={ image } />)) }
-      </div>
+        <section className="planets">
+          { Planets.map(({ name, image }) => (
+            <PlanetCard key={ name } planetName={ name } planetImage={ image } />)) }
+        </section>
+      </article>
     );
   }
 }
