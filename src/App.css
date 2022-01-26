@@ -6,9 +6,9 @@ body {
 }
 
 header > h1 {
-  font-size: 60px;
+  font-size: 6vw;
   text-align: center;
-  text-shadow: rgba(233, 243, 145, 0.815) 1px 1px 3px;
+  text-shadow: rgba(226, 207, 98, 0.685) 1px 1px 3px;
 }
 
 .planets-container {
@@ -18,10 +18,11 @@ header > h1 {
 }
 
 h2 {
+  background-color: rgba(2, 2, 2, 0.3);
   border: 1px solid white;
   border-radius: 15px;
-  font-size: 30px;
-  margin: 0 150px;
+  font-size: 2.5vw;
+  margin: 0 3vw;
   padding: 20px;
   text-align: center;
 }
@@ -35,39 +36,48 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 250px;
   justify-content: center;
-  margin: 5px;
-  max-width: 200px;
-}
-
-img {
-  height: 130px;
-  object-fit: contain;
-  width: 130px;
 }
 
 .mission-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 150px;
+  margin: 0 3vw;
 }
 
 .mission-card {
   align-items: center;
+  background-color: rgba(2, 2, 2, 0.3);
   border: 1px solid white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   height: 200px;
   justify-content: space-around;
-  margin: 5px;
+  margin: 2vh 0;
   width: 220px;
 }
 
 .mission-card > p {
-  font-size: 18px;
+  font-size: 1.5vw;
   font-weight: 700;
   text-decoration: underline;
+}
+
+.mercurio {
+  width: 5vw;
+}
+
+.venus, .terra, .urano, .netuno {
+  width: 9vw;
+}
+
+.marte {
+  width: 7vw;
+}
+
+.jupiter, .saturno {
+  width: 18vw;
 }
