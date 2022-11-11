@@ -1,10 +1,14 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h2 align="center">Welcome to Solar System Project 🌎 </h2>
+
+### Description
+To develop a model of the **solar system** in order to demonstrate all the planets of the solar system rendered on the screen and all the cards with information about space missions.
+
+<!-- > [Resultado final](url) -->
+
+### Skills:
+1. Using JSX in React;
+2. Use `import` to bring components into different files;
+3. Create class components in React;
+4. Create multiple components from an array;
+5. Make use of `props` correctly;
+6. Make use of `PropTypes` to validate a component's props.
